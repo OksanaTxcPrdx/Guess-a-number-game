@@ -17,9 +17,6 @@ function startGameGuessNumber() {
                 alert("It is not a number! Try again!");
                 getHint();
                 break;
-            case userNumber === null:
-                alert("Game is over");
-                break;
             case +userNumber === chosenNumber:
                 alert("You win!");
                 break;
